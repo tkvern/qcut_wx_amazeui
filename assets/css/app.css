@@ -25,18 +25,20 @@ body {
   padding-right: 0px;
 }
 .container {
-  padding-bottom: 20px!important;
+  padding-bottom: 15px!important;
   min-height: calc(100vh - 50px);
 }
-
-@media only screen and (min-width: 641px) {
-  .list-item:nth-child(odd){
-    border-right: 1px solid #ddd;
-  }
+.am-divider-default {
+  border-top: 1px solid #e6e6e6;
 }
 .am-text-gray {
   color: #999999;
 }
 .am-scrollable-vertical {
   resize: none;
+}
+@media only screen and (min-width: 641px) {
+  .list-item:nth-child(odd){
+    border-right: 1px solid #ddd;
+  }
 }
