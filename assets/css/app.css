@@ -1,0 +1,42 @@
+/* Write your styles */
+body {
+  background-color: #F4F4F4;
+}
+
+/* 底部导航 */
+.foot-fixed{height:50px;overflow:hidden;position:fixed;bottom:0;z-index:999;width:100%;background:#FAFAFA;box-shadow: 0px 0px 1px rgba(230, 230, 230, 1);}
+.foot-fixed .foot-item{width:50%;float:left;text-align:center;color:#777;padding:5px 0;}
+.foot-fixed .foot-item span{display:block;width:100%;text-align:center;}
+.foot-fixed .foot-item .foot-label{height:15px;line-height:15px;font-size:12px;}
+.foot-fixed .foot-item .icon{font-size:24px;height:25px;overflow:hidden;line-height:25px;padding:0;}
+.foot-fixed .active {color:#4caf50;}
+.list-item {
+  background-color: #fff;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.img_avatar {
+  padding-left: 12px;
+  padding-top: 5px;
+  padding-right: 0px;
+}
+.container {
+  padding-bottom: 20px!important;
+  min-height: calc(100vh - 50px);
+}
+
+@media only screen and (min-width: 641px) {
+  .list-item:nth-child(odd){
+    border-right: 1px solid #ddd;
+  }
+}
+.am-text-gray {
+  color: #999999;
+}
+.am-scrollable-vertical {
+  resize: none;
+}
